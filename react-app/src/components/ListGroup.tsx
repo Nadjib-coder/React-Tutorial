@@ -5,9 +5,10 @@ import { useState } from "react";
 interface ListGroupProps {
   items: string[];
   heading: string;
+  onSelectItem: (item: string) => void;
 }
 
-function ListGroup({ items, heading }: Props) {
+function ListGroup({ items, heading, onSelectItem }: ListGroupProps) {
   // Hook to tell react that this component has data or state that will change over time
   const [selectedIndex, setSelectedIndex] = useState(-1);
   // selectexIndex: variable
@@ -32,6 +33,7 @@ function ListGroup({ items, heading }: Props) {
             key={item}
             onClick={() => {
               setSelectedIndex(index);
+              onSelectItem(item);
             }}
           >
             {item}
