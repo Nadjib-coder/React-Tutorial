@@ -1,0 +1,68 @@
+/* start Header style */
+.earth-icon {
+  width: 30px;
+}
+.nav-bar {
+  background-color: #F54F50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+  color: white;
+}
+
+.nav-bar .earth-icon {
+  margin-right: 8px;
+}
+/* end Header style */
+
+/* start Main content style */
+.entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.mountain-image {
+  width: 90px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.location-icon {
+  width: 12px;
+  margin-right: 5px;
+}
+.country-name {
+  margin-right: 15px;
+  letter-spacing: 1px;
+}
+.location-link {
+  color: #888888;
+  text-decoration: underline;
+  font-size: small;
+}
+
+.location-name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 5px;
+}
+.content {
+  font-size: small;
+
+}
+/* end Main content style */
+
+
